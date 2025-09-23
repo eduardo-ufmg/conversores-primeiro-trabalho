@@ -324,3 +324,54 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# MATLAB files
+*.asv
+*.mex*
+*.p
+*.slxc
+slprj/
+*.autosave
+
+# MATLAB App Designer
+*.mlapp.bak
+
+# MATLAB Code Analyzer
+*.mlx.bak
+
+# Simulink
+slprj/
+*.slxc
+*.mdlp
+*.slx.autosave
+*.slx.original
+*.mdl.original
+
+# MATLAB Parallel Computing Toolbox
+*.batch
+
+# MATLAB Data
+*.mat
+
+# MATLAB Figures (keep source, ignore compiled)
+# *.fig
+
+# FEMM (Finite Element Method Magnetics)
+*.ans
+*.log
+
+# Keep FEMM model files (.fem) - they should be versioned
+# *.fem
+
+# Temporary and backup files
+*~
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
